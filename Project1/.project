@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Project1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/InAndOut.java</name>
+			<type>1</type>
+			<location>D:/Eclipse/WorkPlace/Project1/src/InAndOut.java</location>
+		</link>
+		<link>
+			<name>src/Students.java</name>
+			<type>1</type>
+			<location>D:/QQ/1248915293/FileRecv/Students.java</location>
+		</link>
+		<link>
+			<name>src/Students0.java</name>
+			<type>1</type>
+			<location>C:/Users/LHY/Desktop/pro/Students0.java</location>
+		</link>
+		<link>
+			<name>src/Teacher.java</name>
+			<type>1</type>
+			<location>D:/QQ/1248915293/FileRecv/Teacher.java</location>
+		</link>
+		<link>
+			<name>src/Teacher0.java</name>
+			<type>1</type>
+			<location>C:/Users/LHY/Desktop/pro/Teacher0.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

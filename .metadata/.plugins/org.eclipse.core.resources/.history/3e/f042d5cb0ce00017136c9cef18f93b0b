@@ -1,0 +1,23 @@
+import java.util.*;
+public class GuessingGame {
+	public static int magicNum=(int)(100*Math.random()+1);
+	private enum Status{CONTINUE,WON,LOST,STOP}
+	public Status gameStatus;
+	public static int time=15000;
+	public void timeControl(){
+		Timer timer=new Timer();
+		timer.schedule(new TimerTask(){
+			public void run(){
+				time--;
+				if(time<0 & gameStatus.equals(Status.CONTINUE)){
+					gameStatus=Status.STOP;
+					System.exit(0);
+				}
+			}
+		},0,500);
+	}
+	public void guess(){
+		
+	}
+
+}
